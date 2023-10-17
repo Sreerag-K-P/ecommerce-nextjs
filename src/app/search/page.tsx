@@ -5,7 +5,7 @@ import { Metadata } from "next";
 interface SearchPageProps {
   searchParams: { query: string };
 }
-export function gennerateMetadata({
+export function generateMetadata({
   searchParams: { query },
 }: SearchPageProps): Metadata {
   return {
